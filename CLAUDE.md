@@ -41,7 +41,7 @@ NestJS 11 on **Fastify** (not Express). `src/main.ts` wires the adapter, `@fasti
 
 ### Env
 
-Required: `PORT`, `NODE_ENV` (`development|production`), `COOKIE_SECRET`, `POSTGRES_{HOST,PORT,USER,PASSWORD,DB}`. Optional: `HEALTH_CHECK_ENABLED`, `THROTTLE_GLOBAL_TTL/LIMIT`, `POSTGRES_{SYNCHRONIZE,LOGGING,MIGRATIONS_RUN}`. `.env` is gitignored and there is no `.env.example` in the repo yet.
+Required: `PORT`, `NODE_ENV` (`development|production`), `COOKIE_SECRET`, `POSTGRES_{HOST,PORT,USER,PASSWORD,DB}`. Optional: `HEALTH_CHECK_ENABLED`, `THROTTLE_GLOBAL_TTL/LIMIT`, `POSTGRES_{SYNCHRONIZE,LOGGING,MIGRATIONS_RUN}`. `.env` is gitignored; copy `.env.example` to `.env` to start.
 
 ## Conventions and gotchas
 

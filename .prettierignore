@@ -1,0 +1,9 @@
+# build and tooling output
+/dist
+/coverage
+/node_modules
+/.nyc_output
+
+# generated
+package-lock.json
+src/database/migrations
