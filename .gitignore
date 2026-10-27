@@ -1,0 +1,38 @@
+# compiled output
+/dist
+/node_modules
+/build
+
+# logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# tests
+/coverage
+/.nyc_output
+
+# IDE
+/.idea
+/.vscode/*
+!/.vscode/extensions.json
+*.swp
+
+# env
+.env
+.env.*
+!.env.example
+
+# temp
+/tmp
+*.tsbuildinfo
+
+# claude
+.claude/settings.local.json
